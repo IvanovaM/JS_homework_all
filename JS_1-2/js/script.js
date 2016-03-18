@@ -9,10 +9,10 @@ function pow (a, n) {
 	for (var i = 1; i < n; i++) {
 	result *= a;
 	}
-
 	console.log(result);
 	return result;
 }
+
 
 
 while (n < 1) {
@@ -41,7 +41,7 @@ for (var i = 0; i < arrName.length; i++) {
 	}
 }
 
-if (counter == 1) {
+if (counter >= 1) {
 	alert(userName + ', вы успешно вошли');
 } else {
 	alert('Ошибка входа. Пользователь с таким именем не существует.');
