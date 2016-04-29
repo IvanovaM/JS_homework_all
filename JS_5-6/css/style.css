@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clockform {
+	width: 500px;
+	margin: auto;
+	border: 3px outset #480c76;
+	border-radius: 20px;
+	margin-top: 150px;
+	background: linear-gradient(to top, #508aaf, #a5c9e0);
+}
+#clock {
+	margin: auto;
+	margin-top: 30px;
+	display: block;
+	font-size: 55px;
+	border: none;
+	color: #1d049b;
+	background: none;
+}
+#starter, .split, .clearer {
+	background-color: #7e74b4;
+	border: 1px solid #1b048e;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #1b048e;
+	font-size: 35px;
+	color: #12035f;
+	padding: 5px;
+	display: inline-block;
+	margin-left: 55px;
+	margin-bottom: 55px;
+	margin-top: 30px;
+}
+#marker {
+	margin-left: 20px;
+	margin-bottom: 30px;
+	color: #12035f;
+	font-size: 25px;
+}
