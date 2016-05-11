@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 610px;
+	height: 300px;
+	margin: auto;
+	border: 1px solid #515151;
+	margin-top: 100px;
+}
+.form {
+	border: 1px solid #515151;
+	margin: 10px;
+	height: 200px;
+	border-radius: 5px;
+}
+p {
+	padding: 15px 10px;
+}
+p span {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	padding-top: 6px;
+}
+.FirstnameHelp, .LastnameHelp, .AdressHelp {
+	width: 250px;
+	margin-left: 10px;
+	border: 1px solid #737373;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	height: 30px;
+	padding-left: 5px;
+	
+	display: none;
+}
+.button {
+	margin-left: 10px;
+	border: 1px solid #a9a7a7;
+	border-radius: 5px;
+	padding: 2px;
+}
+.button:hover {
+	border: 1px solid #515151;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
