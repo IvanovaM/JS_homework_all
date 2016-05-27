@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	font-size: 19px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+form {
+	margin-left: 330px;
+}
+.question {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+label {
+	display: block;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+label span {
+	padding-left: 5px;
+}
+.submit {
+	border: 2px solid black;
+	width: 300px;
+	height: 50px;
+	margin-left: 220px;
+	background: #dc5efc;
+	font-size: 17px;
+	margin-top: 30px;
+}

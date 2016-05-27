@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jcarousel.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="js/jquery.checkbox.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="jcarousel-wrapper">
+            <div class="jcarousel">
+                <ul>
+                    <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+                </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+            <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+            <p class="jcarousel-pagination"></p>
+        </div>
+    </div>
+    <a href="" id="show">Нестандартный select</a>
+    <div id="overlay"></div>
+    <div id="modal">
+    <select name="" id="">
+        <option value="">Опция 1</option>
+        <option value="">Опция 2</option>
+        <option value="">Опция 3</option>
+        <option value="">Опция 4</option>
+        <option value="">Опция 5</option>
+    </select>
+    </div>
+    <form class="Checkbox_jquery">
+        <p>Checkbox_jquery</p>
+        <span class="niceCheck">label 1<input type="checkbox" name="ch1" /></span>
+        <span class="niceCheck">label 2<input type="checkbox" name="ch2" /></span>
+        <span class="niceCheckDisabled">label 3<input type="checkbox" disabled checked  name="ch3" /></span>
+    </form>
+    <form class="Checkbox_css">
+        <p>Checkbox_css</p>
+        <label for="ch1">label 1</label><input type="checkbox" class="ch1" id="ch1" />
+        <label for="ch2">label 2</label><input type="checkbox" class="ch2" id="ch2" />
+        <label for="ch3">label 3</label><input type="checkbox" disabled checked class="ch3" id="ch3" />
+    </form>  
+</body>
+</html>

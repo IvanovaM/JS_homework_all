@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: whitesmoke;
+}
+
+.myCreator{
+  display: none;
+}
+
+.myCarousel{
+  margin: auto;
+  background: white;
+  border: 1px transparent solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.myCarousel__item{
+  width: 100%;
+  position: absolute;
+}
+
+.myCarousel__button{
+  position: absolute;
+  width: 100px;
+}
+
+.myCarousel__button:hover{
+  background: rgba(0,0,0,0.5);
+}

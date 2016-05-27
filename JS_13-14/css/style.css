@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.test {
+	width: 700px;
+	margin: auto;
+	padding: 15px;
+	background: #fdf5d3;
+}
+.test__title {
+	text-align: center;
+}
+.test__hint {
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+}
+.test__questionBlock {
+	margin: 10px;
+	padding: 10px;
+}
+.test__questionText {
+	font-size: 20px;
+	margin-left: 20px;
+}
+.test__answer {
+	margin: 5px 30px;
+}

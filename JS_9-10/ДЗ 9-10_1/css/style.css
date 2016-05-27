@@ -1,0 +1,161 @@
+
+body {
+    background: #F0EFE7;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+  color: #0388A6;
+}
+
+a {
+  color: #0388A6;
+}
+
+pre {
+  border:1px solid #000;
+  overflow-x:auto;
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+
+/**/
+
+#show {
+  border: 2px solid #02076c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 120px;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+#modal {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+
+.Checkbox_jquery {
+  border: 2px solid #02076c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 120px;
+  color: black;
+  background: #84afef;
+}
+.niceCheck {
+  width: 65px;
+  height: 17px;
+  display: block;
+  cursor: pointer;
+  background: url(../img/checkbox-sprite.png) 43px 0 no-repeat;
+}
+.niceCheck input {
+display: none;
+}
+
+/**/
+.Checkbox_css {
+  border: 2px solid #02076c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 79px;
+  color: black;
+  background: #84afef;
+}
+.Checkbox_css  {
+  display: block;
+  position: relative;
+}
+.Checkbox_css p {
+  font-size: 13px;
+}
+.ch1, .ch2, label {
+  cursor: pointer;
+}
+.ch1, .ch2 {
+  display: none;
+}
+label:before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 17px;
+  position: absolute;
+  background: url(../img/checkbox-sprite.png) 47px 0 no-repeat;
+}
+input[type="checkbox"]:checked + label {
+  background: url(../img/checkbox-sprite.png) 47px -17px no-repeat;
+}
+
+
+/*
+
+
+.ch1:not(checked), .ch2:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.ch1:not(checked), .ch2:not(checked), label {
+  position: relative;
+  padding: 0 0px 0 0;
+}
+.ch1:not(checked), .ch2:not(checked), label:before {
+  content: '';
+  position: absolute;
+  width: 65px;
+  height: 17px;
+  background: url(../img/checkbox-sprite.png) 47px 0 no-repeat;
+}
+.ch1:checked, .ch2:checked, label:before {
+  background: url(../img/checkbox-sprite.png) 47px -17px no-repeat;
+}

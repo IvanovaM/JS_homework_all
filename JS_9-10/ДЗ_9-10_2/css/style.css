@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.menu {
+	padding: 50px;
+	background: #f0e5fd;
+	position: relative;
+	height: 200px;
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	position: relative;
+	width: 70px;
+	border: 1px solid #7342a9;
+	border-radius: 5px;
+	box-shadow: 3px 3px;
+	background: #dcc2fa;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+} 
+.menu a:hover {
+	color: #0b0496;
+	font-weight: 600;
+}
+.submenu {
+	position: absolute;
+	top: 42px;
+	display: none;
+	background: #b6a8c7;
+}
+.submenu li {
+	display: block;
+	width: 70px;
+}
+.submenu a {
+	font-size: 18px;
+}
+.submenu ul {	
+	left: 84px;
+	top: 0px;
+}
+.submenu ul li {
+	width: 75px;
+}
