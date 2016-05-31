@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--<link href="css/style.css" rel="stylesheet">-->
+    <script data-main="js/app" src="js/require.js"></script>
+    <script src="js/tmpl.js"></script>
+</head>
+<body>
+	<h1>ToDoList</h1>
+    <script type="text/template" id="wrapper-template">
+        <div class="wrapper">
+            <ul class="item-list"></ul>
+            <div class="controlls">
+            	<input type="text" class="item-value">
+            	<button class="item-add">Add</button>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="list-template">
+        <div>
+    	<% for (var i = 0; i < data.length; i++) { %>
+    		<li><%= data[i] %><span class="item-delete">X</span></li>
+    	<% }; %>
+        </div>
+    </script>  
+</body>
+</html>
+
+
